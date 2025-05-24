@@ -1,6 +1,7 @@
-.button{
-    background-color: var(--color-black);
-    color: rgb(52, 201, 75);
+.button {
+    background-color: transparent;
+    color: #34c94b;  /* Using hex format for consistency */
+    border: 1px solid #34c94b;
     border-radius: 12px;
     padding: 10px 16px;
     margin: 14px;
@@ -8,11 +9,10 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     transition: all 0.3s ease;
-    border: none;
     outline: none;
 }
 
 .button:hover {
-    background-color: rgb(52, 201, 75);
-    color: var(--color-black);
+    background-color: #34c94b;
+    color: #121212;
 }
