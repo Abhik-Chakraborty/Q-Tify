@@ -1,6 +1,6 @@
 .button{
     background-color: var(--color-black);
-    color: #34c94b;
+    color: rgb(52, 201, 75);
     border-radius: 12px;
     padding: 10px 16px;
     margin: 14px;
@@ -8,9 +8,11 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     transition: all 0.3s ease;
+    border: none;
+    outline: none;
 }
 
 .button:hover {
-    background-color: #34c94b;
+    background-color: rgb(52, 201, 75);
     color: var(--color-black);
 }
