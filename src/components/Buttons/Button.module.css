@@ -1,9 +1,16 @@
 .button{
     background-color: var(--color-black);
-    color: var(--color-primary);
+    color: #34c94b;
     border-radius: 12px;
     padding: 10px 16px;
     margin: 14px;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #34c94b;
+    color: var(--color-black);
 }
